@@ -16,11 +16,15 @@
         "frame-thickness": 100,
         "delay": 5,
         "images": [
-            "https://cdn.midjourney.com/864f01b6-2c74-44e9-9ea6-53aa3c270c9d/0_2.png",
-            "https://cdn.midjourney.com/20003f1c-5ac6-46d5-82ea-e0940159cb25/0_0.webp",
-            "https://cdn.midjourney.com/9d855a83-5730-4cfe-b421-c880e152d87d/0_3.webp",
-            "https://cdn.midjourney.com/8b6640e3-9945-48cc-af8b-7af982654125/0_2.webp",
-            "https://cdn.midjourney.com/5fc225b0-69f7-4ed2-a3a6-1bf7b08467eb/0_2.webp"
+            "https://cdn.midjourney.com/69bdb5f2-7046-4034-9d49-acedc8a137ec/0_0.webp",
+            "https://cdn.midjourney.com/203e110b-8057-47af-b8f5-9aad1e98c4e8/0_1.webp",
+            "https://cdn.midjourney.com/1804c331-af52-4b4b-b025-2438d3e93dde/0_3.webp",
+            "https://cdn.midjourney.com/d0c4e997-d7a0-476e-8d60-b3f29ab532ec/0_1.webp",
+            "https://cdn.midjourney.com/ee5ea894-230c-4140-b2af-af74093bf808/0_2.webp",
+            "https://cdn.midjourney.com/35643bce-2990-4ba4-af27-85ac324e59f1/0_3.webp",
+            "https://cdn.midjourney.com/fc29f9c3-f21c-4196-a9c5-8f39775b40e6/0_1.webp",
+            "https://cdn.midjourney.com/8c6acf95-4c10-49ce-b64e-d7e35bacabcf/0_2.webp",
+            "https://cdn.midjourney.com/0207b7ff-ba55-4861-8a57-e450f16870de/0_1.webp"
         ]
     },
     "127.0.0.1": {
@@ -40,11 +44,15 @@
         "frame-thickness": 50,
         "delay": 10,
         "images": [
-            "https://cdn.midjourney.com/864f01b6-2c74-44e9-9ea6-53aa3c270c9d/0_2.png",
-            "https://cdn.midjourney.com/20003f1c-5ac6-46d5-82ea-e0940159cb25/0_0.webp",
-            "https://cdn.midjourney.com/9d855a83-5730-4cfe-b421-c880e152d87d/0_3.webp",
-            "https://cdn.midjourney.com/8b6640e3-9945-48cc-af8b-7af982654125/0_2.webp",
-            "https://cdn.midjourney.com/5fc225b0-69f7-4ed2-a3a6-1bf7b08467eb/0_2.webp"
+            "https://cdn.midjourney.com/69bdb5f2-7046-4034-9d49-acedc8a137ec/0_0.webp",
+            "https://cdn.midjourney.com/203e110b-8057-47af-b8f5-9aad1e98c4e8/0_1.webp",
+            "https://cdn.midjourney.com/1804c331-af52-4b4b-b025-2438d3e93dde/0_3.webp",
+            "https://cdn.midjourney.com/d0c4e997-d7a0-476e-8d60-b3f29ab532ec/0_1.webp",
+            "https://cdn.midjourney.com/ee5ea894-230c-4140-b2af-af74093bf808/0_2.webp",
+            "https://cdn.midjourney.com/35643bce-2990-4ba4-af27-85ac324e59f1/0_3.webp",
+            "https://cdn.midjourney.com/fc29f9c3-f21c-4196-a9c5-8f39775b40e6/0_1.webp",
+            "https://cdn.midjourney.com/8c6acf95-4c10-49ce-b64e-d7e35bacabcf/0_2.webp",
+            "https://cdn.midjourney.com/0207b7ff-ba55-4861-8a57-e450f16870de/0_1.webp"
         ]
     },
     "192.168.1.8": {
@@ -64,11 +72,15 @@
         "frame-thickness": 80,
         "delay": 5,
         "images": [
-            "https://cdn.midjourney.com/864f01b6-2c74-44e9-9ea6-53aa3c270c9d/0_2.png",
-            "https://cdn.midjourney.com/20003f1c-5ac6-46d5-82ea-e0940159cb25/0_0.webp",
-            "https://cdn.midjourney.com/9d855a83-5730-4cfe-b421-c880e152d87d/0_3.webp",
-            "https://cdn.midjourney.com/8b6640e3-9945-48cc-af8b-7af982654125/0_2.webp",
-            "https://cdn.midjourney.com/5fc225b0-69f7-4ed2-a3a6-1bf7b08467eb/0_2.webp"
+            "https://cdn.midjourney.com/69bdb5f2-7046-4034-9d49-acedc8a137ec/0_0.webp",
+            "https://cdn.midjourney.com/203e110b-8057-47af-b8f5-9aad1e98c4e8/0_1.webp",
+            "https://cdn.midjourney.com/1804c331-af52-4b4b-b025-2438d3e93dde/0_3.webp",
+            "https://cdn.midjourney.com/d0c4e997-d7a0-476e-8d60-b3f29ab532ec/0_1.webp",
+            "https://cdn.midjourney.com/ee5ea894-230c-4140-b2af-af74093bf808/0_2.webp",
+            "https://cdn.midjourney.com/35643bce-2990-4ba4-af27-85ac324e59f1/0_3.webp",
+            "https://cdn.midjourney.com/fc29f9c3-f21c-4196-a9c5-8f39775b40e6/0_1.webp",
+            "https://cdn.midjourney.com/8c6acf95-4c10-49ce-b64e-d7e35bacabcf/0_2.webp",
+            "https://cdn.midjourney.com/0207b7ff-ba55-4861-8a57-e450f16870de/0_1.webp"
         ]
     }
 }
