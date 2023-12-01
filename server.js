@@ -1,4 +1,3 @@
-//create a basic express node server to serve index.html and the static files
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -10,11 +9,14 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Endpoint to get the frame-config.json file on the client side
 app.get('/config', (req, res) => {
     const images = JSON.parse(fs.readFileSync('frame-config.json', 'utf8'));
     res.send(images);
 });
-//serve the index.html file 
+
+//Main endpoint for application
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'picture-frame.html'));
 });
