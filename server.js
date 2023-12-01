@@ -12,6 +12,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 activeClients = [];
 
+// get the ip address of the network interface of the server
+const interfaces = require('os').networkInterfaces();
+const addresses = [];
+for (const name of Object.keys(interfaces)) {
+    for (const details of interfaces[name]) {
+        if (details.family === 'IPv4' && !details.internal) {
+            addresses.push(details.address);
+        }
+    }
+}
+
 // Endpoint for the client to get the list of active clients
 app.get('/active-clients', (req, res) => {
     res.send(activeClients);
@@ -72,5 +83,5 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'picture-frame.html'));
 });
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+    console.log('Access the frame stream at http://' + addresses[0] + ':' + port);
 })

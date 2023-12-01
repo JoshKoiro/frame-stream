@@ -1,5 +1,6 @@
 {
     "default": {
+        "name": "default",
         "frame-color": {
             "red": 240,
             "green": 240,
@@ -23,6 +24,7 @@
         ]
     },
     "127.0.0.1": {
+        "name": "Server window",
         "frame-color": {
             "red": 240,
             "green": 240,
@@ -46,6 +48,7 @@
         ]
     },
     "192.168.1.8": {
+        "name": "Bedroom TV",
         "frame-color": {
             "red": 240,
             "green": 240,
