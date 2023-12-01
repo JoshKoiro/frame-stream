@@ -39,7 +39,8 @@ function loopImages() {
 }
 
 function fetchImages() {
-    fetch("http://localhost:3000/config")
+    var domain = window.location.hostname;
+    fetch("http://" + domain + ":3000/config")
         .then(response => response.json())
         .then(data => {
             updateCSSProps(data)
