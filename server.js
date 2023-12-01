@@ -19,19 +19,25 @@ app.get('/active-clients', (req, res) => {
 
 // Endpoint to get the frame-config.json file on the client side
 app.get('/config', (req, res) => {
-    const images = JSON.parse(fs.readFileSync('frame-config.json', 'utf8'));
-    res.send(images);
+    const config = JSON.parse(fs.readFileSync('frame-config.json', 'utf8'));
+    res.send(config);
+});
+
+// Endpoint to geta particular ip address configuration on the client side
+app.get('/config/:ip', (req, res) => {
+    const ip = req.params.ip;
+    const config = JSON.parse(fs.readFileSync('frame-config.json', 'utf8'));
+    res.send(config[ip]);
 });
 
 // Endpoint to get the list of images on the client side
 app.get('/images', (req, res) => {
-    const images = JSON.parse(fs.readFileSync('frame-config.json', 'utf8')).images;
+    const images = JSON.parse(fs.readFileSync('frame-config.json', 'utf8')).default.images;
     res.send(images);
 });
 
 //Main endpoint for application
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'picture-frame.html'));
     var clientIP = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
     if(clientIP === "::1"){
         clientIP = "127.0.0.1";
@@ -49,6 +55,9 @@ app.get('/', (req, res) => {
     }
     console.log(clientInfo);
 
+    // send a cookie to the client prior to sending the picture frame
+    res.cookie('ip', clientInfo.ip);
+
     // check if the client has already connected to the application
     for(var i = 0; i < activeClients.length; i++){
         if(activeClients[i].ip === clientInfo.ip){
@@ -60,6 +69,7 @@ app.get('/', (req, res) => {
     }
 
     activeClients.push(clientInfo);
+    res.sendFile(path.join(__dirname, 'public', 'picture-frame.html'));
 });
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);

@@ -1,17 +1,71 @@
 {
-    "frame-color": {
-        "red": 240,
-        "green": 240,
-        "blue": 230,
-        "alpha": 1
+    "default": {
+        "frame-color": {
+            "red": 240,
+            "green": 240,
+            "blue": 230,
+            "alpha": 1
+        },
+        "back-color": {
+            "red": 255,
+            "green": 255,
+            "blue": 255,
+            "alpha": 1
+        },
+        "frame-thickness": 100,
+        "delay": 5,
+        "images": [
+            "https://cdn.midjourney.com/864f01b6-2c74-44e9-9ea6-53aa3c270c9d/0_2.png",
+            "https://cdn.midjourney.com/20003f1c-5ac6-46d5-82ea-e0940159cb25/0_0.webp",
+            "https://cdn.midjourney.com/9d855a83-5730-4cfe-b421-c880e152d87d/0_3.webp",
+            "https://cdn.midjourney.com/8b6640e3-9945-48cc-af8b-7af982654125/0_2.webp",
+            "https://cdn.midjourney.com/5fc225b0-69f7-4ed2-a3a6-1bf7b08467eb/0_2.webp"
+        ]
     },
-    "frame-thickness": 100,
-    "delay": 5,
-    "images": [
-        "https://cdn.midjourney.com/864f01b6-2c74-44e9-9ea6-53aa3c270c9d/0_2.png",
-        "https://cdn.midjourney.com/20003f1c-5ac6-46d5-82ea-e0940159cb25/0_0.webp",
-        "https://cdn.midjourney.com/9d855a83-5730-4cfe-b421-c880e152d87d/0_3.webp",
-        "https://cdn.midjourney.com/8b6640e3-9945-48cc-af8b-7af982654125/0_2.webp",
-        "https://cdn.midjourney.com/5fc225b0-69f7-4ed2-a3a6-1bf7b08467eb/0_2.webp"
-    ]
+    "127.0.0.1": {
+        "frame-color": {
+            "red": 240,
+            "green": 240,
+            "blue": 230,
+            "alpha": 1
+        },
+        "back-color": {
+            "red": 255,
+            "green": 255,
+            "blue": 255,
+            "alpha": 1
+        },
+        "frame-thickness": 50,
+        "delay": 10,
+        "images": [
+            "https://cdn.midjourney.com/864f01b6-2c74-44e9-9ea6-53aa3c270c9d/0_2.png",
+            "https://cdn.midjourney.com/20003f1c-5ac6-46d5-82ea-e0940159cb25/0_0.webp",
+            "https://cdn.midjourney.com/9d855a83-5730-4cfe-b421-c880e152d87d/0_3.webp",
+            "https://cdn.midjourney.com/8b6640e3-9945-48cc-af8b-7af982654125/0_2.webp",
+            "https://cdn.midjourney.com/5fc225b0-69f7-4ed2-a3a6-1bf7b08467eb/0_2.webp"
+        ]
+    },
+    "192.168.1.8": {
+        "frame-color": {
+            "red": 240,
+            "green": 240,
+            "blue": 230,
+            "alpha": 1
+        },
+        "back-color": {
+            "red": 255,
+            "green": 255,
+            "blue": 255,
+            "alpha": 1
+        },
+        "frame-thickness": 80,
+        "delay": 5,
+        "images": [
+            "https://cdn.midjourney.com/864f01b6-2c74-44e9-9ea6-53aa3c270c9d/0_2.png",
+            "https://cdn.midjourney.com/20003f1c-5ac6-46d5-82ea-e0940159cb25/0_0.webp",
+            "https://cdn.midjourney.com/9d855a83-5730-4cfe-b421-c880e152d87d/0_3.webp",
+            "https://cdn.midjourney.com/8b6640e3-9945-48cc-af8b-7af982654125/0_2.webp",
+            "https://cdn.midjourney.com/5fc225b0-69f7-4ed2-a3a6-1bf7b08467eb/0_2.webp"
+        ]
+    }
 }
