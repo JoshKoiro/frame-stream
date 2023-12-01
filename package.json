@@ -1,0 +1,26 @@
+{
+  "name": "frame-stream",
+  "version": "0.1.0",
+  "description": "A server to provide a webpage endpoint for a rotating stream of image links to display on a digital frame or TV",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshKoiro/frame-stream.git"
+  },
+  "author": "JoshKoiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshKoiro/frame-stream/issues"
+  },
+  "homepage": "https://github.com/JoshKoiro/frame-stream#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
